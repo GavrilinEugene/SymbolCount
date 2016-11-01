@@ -1,10 +1,10 @@
 
 public class StringUtils {
 
-    public static int countSymbols(String str, char letter){
+    public static int countSymbols(String str, char symbol){
         int ret  = 0;
         for(int index = 0; index < str.length(); index++){
-            if(str.charAt(index) == letter)
+            if(str.charAt(index) == symbol)
                 ret++;
         }
         return ret;
